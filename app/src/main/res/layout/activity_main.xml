@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.laoge.myapplication.MainActivity">
+
+    <RelativeLayout
+        android:background="#383737"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <LinearLayout
+            android:id="@+id/back"
+            android:background="@drawable/back_bg"
+            android:layout_width="48dp"
+            android:gravity="center"
+            android:layout_height="48dp">
+            <ImageView
+                android:background="@drawable/back"
+                android:layout_width="35dp"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/title"
+            android:text="签名"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/submit"
+            android:background="@drawable/back_bg"
+            android:layout_width="48dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_height="48dp">
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:src="@drawable/sure"
+                android:layout_width="35dp"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_main"
+        android:layout_margin="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:onClick="click1"
+        android:text="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/b2"
+        android:text="2"
+        android:onClick="click2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:text="水电费捡垃圾费拉进来的啦封建礼教按实际发链接橄榄绿桑德拉发件方了解佛牌违法"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+
+</LinearLayout>
